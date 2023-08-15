@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url("https://images.unsplash.com/photo-1659835547789-cb00dbd213c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.wrapper {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  background: rgba(228, 224, 234, 0.306);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #161a1e;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(204, 22, 22, 0.2);
+}
+
+p {
+  font-size: 18px;
+  color: #e8e0e0;
+  margin-bottom: 30px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #191e23fd;
+  border: 1px solid #445a6f;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #34495e;
+  border-color: #34495e;
+}
+
+/* Custom file input button style */
+.input-label {
+  background-color: #445a6f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-label:hover {
+  background-color: #34495e;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+img {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  max-width: 100%;
+}
